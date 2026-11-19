@@ -1,0 +1,22 @@
+# projets.maeljallais.com
+# Les pages HTML sont indexables. Les images des projets ne doivent pas l'être.
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Allow: /
+Allow: /articles/assets/css/
+Allow: /articles/assets/js/
+Disallow: /articles/*/images/
+Disallow: /articles/wiztivi/*/images/
+Disallow: /articles/assets/images/
+Disallow: /*.webp$
+Disallow: /*.avif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.svg$
+
+Sitemap: https://projets.maeljallais.com/sitemap.xml
