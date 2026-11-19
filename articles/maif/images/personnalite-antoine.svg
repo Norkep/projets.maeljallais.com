@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" role="img" aria-labelledby="title">
+  <title id="title">Traits de personnalité du persona Antoine</title>
+  <rect width="600" height="280" fill="#fff"/>
+  <g fill="#303030" font-family="Arial, sans-serif" font-size="18">
+    <text x="24" y="36">Introverti</text><text x="576" y="36" text-anchor="end">Extraverti</text>
+    <text x="24" y="102">Conservateur</text><text x="576" y="102" text-anchor="end">Créatif</text>
+    <text x="24" y="168">Passif</text><text x="576" y="168" text-anchor="end">Actif</text>
+    <text x="24" y="234">Isolé</text><text x="576" y="234" text-anchor="end">Social</text>
+  </g>
+  <g stroke="#e6e6e6" stroke-width="8" stroke-linecap="round"><path d="M28 55H572 M28 121H572 M28 187H572 M28 253H572"/></g>
+  <g stroke="#111111" stroke-width="8" stroke-linecap="round"><path d="M28 55H508"/><path d="M28 121H334"/><path d="M28 187H526"/><path d="M28 253H508"/></g>
+</svg>
