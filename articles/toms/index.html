@@ -29,9 +29,25 @@
       "@id": "https://maeljallais.com/#person",
       "name": "Maël Jallais",
       "url": "https://maeljallais.com",
+      "email": "mailto:hello@maeljallais.com",
       "jobTitle": "Product Designer",
+      "description": "Product designer UX/UI : design system, parcours complexes et prototypes, pour des startups, le service public, des intranets et des grands comptes.",
+      "knowsAbout": [
+        "Product design",
+        "UX design",
+        "UI design",
+        "Design system",
+        "DSFR",
+        "Prototypage",
+        "Interfaces TV",
+        "Intranet",
+        "IA générative",
+        "LLM"
+      ],
       "sameAs": [
-        "https://www.linkedin.com/in/maeljallais/"
+        "https://www.linkedin.com/in/ma%C3%ABljallais/",
+        "https://www.behance.net/MaelJallais",
+        "https://twitter.com/maeljallais"
       ]
     },
     {
@@ -46,13 +62,17 @@
       },
       "mainEntity": {
         "@id": "https://projets.maeljallais.com/articles/toms/#work"
+      },
+      "dateModified": "2026-11-21",
+      "breadcrumb": {
+        "@id": "https://projets.maeljallais.com/articles/toms/#breadcrumb"
       }
     },
     {
       "@type": "CreativeWork",
       "@id": "https://projets.maeljallais.com/articles/toms/#work",
-      "headline": "Une peluche pour échanger.",
-      "name": "Une peluche pour échanger.",
+      "headline": "Une peluche pour garder le lien.",
+      "name": "Une peluche pour garder le lien.",
       "description": "En quatre jours de workshop, nous avons conçu Toms, une peluche connectée qui relie l’enfant hospitalisé à ses parents. J’ai intégré l’électronique Arduino.",
       "url": "https://projets.maeljallais.com/articles/toms/",
       "inLanguage": "fr-FR",
@@ -65,6 +85,24 @@
       "mainEntityOfPage": {
         "@id": "https://projets.maeljallais.com/articles/toms/#webpage"
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://projets.maeljallais.com/articles/toms/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Portfolio",
+          "item": "https://maeljallais.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Toms",
+          "item": "https://projets.maeljallais.com/articles/toms/"
+        }
+      ]
     }
   ]
 }</script>
@@ -73,7 +111,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="../assets/css/articles.css?v=watch-wrap-20261114">
+  <link rel="stylesheet" href="../assets/css/articles.css?v=seo-20261121">
   <script src="../assets/js/articles.js?v=watch-scroll-20261114" defer></script>
 </head>
 
@@ -102,15 +140,15 @@
     
     <article id="article">
       <header class="article-header">
-        <p class="article-category" id="article-category">Design au produit · Toms</p>
-        <h1 id="article-title">Une peluche pour échanger.</h1>
-        <p class="article-deck" id="article-deck">Un concept de peluche interactive destiné aux enfants hospitalisés.</p>
+        <p class="article-category" id="article-category">Design produit · Toms</p>
+        <h1 id="article-title">Une peluche pour garder le lien.</h1>
+        <p class="article-deck" id="article-deck">Une peluche connectée pour les enfants hospitalisés et leurs parents, prototypée en quatre jours.</p>
         <div class="article-meta"><span class="project-date">Avril 2021</span></div>
       </header>
       <section id="reader-cover" class="project-static-showcase" aria-label="Aperçus du projet Toms"><figure class="project-static-figure"><div class="project-showcase-media" style="--cover-height-ratio:0.6127694859"><img src="images/11.webp" alt="Peluche Toms jaune aux yeux lumineux" width="4824" height="2956" srcset="images/11-480.webp 480w, images/11-960.webp 960w, images/11.webp 1600w" sizes="(max-width: 600px) calc(100vw - 42px), (max-width: 900px) calc(100vw - 66px), (max-width: 1520px) calc(100vw - 82px), 1438px" loading="eager" decoding="async"></div><h2>Le prototype</h2></figure></section>
-      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Toms est un concept de peluche connectée pour aider les enfants hospitalisés à garder le lien avec leurs parents. Elle permet d’échanger des messages vocaux et d’afficher des émotions.</p></div>
-<section class="article-section" aria-labelledby="toms-section-1"><div class="article-section-heading"><h2 id="toms-section-1">Contexte et objectif</h2></div><div class="article-section-content"><p>Nous avons imaginé ce compagnon pendant un workshop de quatre jours à L’École de design Nantes Atlantique. L’objectif : proposer aux enfants hospitalisés et à leurs parents une façon simple de rester en contact pendant le séjour.</p><p>Le projet s’adressait en particulier aux enfants hospitalisés pour une courte période. Nous avons exploré une interaction qui associe la voix et les émotions à un objet familier, en complément du téléphone utilisé par le parent.</p><figure class="project-inline-media"><img src="images/08.webp" alt="Enfant dans une chambre d’hôpital" width="2420" height="2460" srcset="images/08-480.webp 480w, images/08-960.webp 960w, images/08.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></figure></div></section>
-<section class="article-section" aria-labelledby="toms-section-2"><div class="article-section-heading"><h2 id="toms-section-2">Concept</h2></div><div class="article-section-content"><p>Le concept prévoit qu’un parent envoie un message vocal et un emoji depuis son téléphone. La peluche restitue la voix et affiche l’émotion dans ses yeux lumineux. L’enfant peut répondre en appuyant sur sa patte.</p><p>Ce parcours repose sur deux interactions adaptées à chaque côté de l’échange : le parent compose son message sur son téléphone, tandis que l’enfant interagit directement avec la peluche par le toucher. Les expressions lumineuses donnent une forme visuelle à l’emoji qui accompagne le message.</p></div></section>
+      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Toms est un concept de peluche connectée qui aide les enfants hospitalisés à garder le lien avec leurs parents. Elle transmet des messages vocaux et affiche des émotions.</p></div>
+<section class="article-section" aria-labelledby="toms-section-1"><div class="article-section-heading"><h2 id="toms-section-1">Contexte et objectif</h2></div><div class="article-section-content"><p>Nous avons imaginé ce compagnon pendant un workshop de quatre jours à L’École de design Nantes Atlantique. Objectif : donner aux enfants hospitalisés et à leurs parents un moyen simple de rester en contact pendant le séjour.</p><p>Nous visions surtout les hospitalisations courtes. L’idée : passer par un objet familier, qui porte la voix et les émotions, en complément du téléphone du parent.</p><figure class="project-inline-media"><img src="images/08.webp" alt="Enfant dans une chambre d’hôpital" width="2420" height="2460" srcset="images/08-480.webp 480w, images/08-960.webp 960w, images/08.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></figure></div></section>
+<section class="article-section" aria-labelledby="toms-section-2"><div class="article-section-heading"><h2 id="toms-section-2">Concept</h2></div><div class="article-section-content"><p>Le parent envoie un message vocal et un emoji depuis son téléphone. La peluche diffuse la voix et affiche l’émotion dans ses yeux lumineux. Pour répondre, l’enfant appuie sur sa patte.</p><p>Chaque côté de l’échange a son interaction : le téléphone pour le parent, qui compose son message, le toucher pour l’enfant, directement sur la peluche. Les yeux lumineux traduisent l’emoji en expression.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="toms-carousel-1-title">
         <div class="article-carousel-heading">
           <h2 id="toms-carousel-1-title">Conception</h2>
@@ -126,7 +164,7 @@
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="toms-section-3"><div class="article-section-heading"><h2 id="toms-section-3">Mon rôle</h2></div><div class="article-section-content"><p>Avec quatre autres designers d’interactivité, j’ai participé à l’exploration du concept et à la conception des interactions. Je me suis notamment chargé de l’intégration des composants Arduino dans le prototype. Le temps du workshop ne nous a pas permis de le tester auprès des enfants, des parents ou des soignants.</p><p>Le prototype associait une carte Arduino à un capteur tactile dans la patte, un haut-parleur pour les messages et des LED NeoPixel pour représenter les emojis. Les croquis et la fabrication textile ont permis à l’équipe de donner une forme tangible au concept pendant le temps imparti.</p><p>Une prochaine étape serait de confronter le concept aux enfants, aux parents et aux soignants : comprendre si le geste est facile à découvrir, si les expressions sont reconnaissables et si l’échange convient au contexte hospitalier. Ces points restent des hypothèses à vérifier.</p></div></section>
+<section class="article-section" aria-labelledby="toms-section-3"><div class="article-section-heading"><h2 id="toms-section-3">Mon rôle</h2></div><div class="article-section-content"><p>Avec quatre autres designers d’interactivité, j’ai participé à l’exploration du concept et à la conception des interactions. Je me suis chargé en particulier de l’intégration des composants Arduino dans le prototype.</p><p>Le prototype associe une carte Arduino, un capteur tactile dans la patte, un haut-parleur pour les messages et des LED NeoPixel pour les emojis. Croquis, puis fabrication textile : en quatre jours, le concept est devenu un objet qu’on peut tenir en main.</p><p>Faute de temps, nous n’avons pas pu le tester avec des enfants, des parents ou des soignants. Ce serait la prochaine étape : vérifier que le geste se découvre facilement, que les expressions sont lisibles et que l’échange convient au contexte hospitalier.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="toms-carousel-2-title">
         <div class="article-carousel-heading">
           <h2 id="toms-carousel-2-title">Interactions et prototype</h2>
@@ -136,20 +174,24 @@
           </div>
         </div>
         <div class="article-carousel-track" id="toms-carousel-2-track" tabindex="0" role="group" aria-label="Visuels : Interactions et prototype. Défilement horizontal.">
-          <figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/13.webp" alt="Main pressant la patte de la peluche" width="2556" height="2020" srcset="images/13-480.webp 480w, images/13-960.webp 960w, images/13.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Répondre par le toucher</h3><p>un capteur tactile dans la patte permet d’envisager une réponse vocale par le toucher.</p></figcaption></figure>
-<figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/12.webp" alt="Branchement des composants électroniques sur une carte Arduino" width="2556" height="1895" srcset="images/12-480.webp 480w, images/12-960.webp 960w, images/12.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Prototyper l’interaction</h3><p>intégration d’une carte Arduino, d’un capteur tactile, d’un haut-parleur et de LED pour explorer l’interaction.</p></figcaption></figure>
+          <figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/13.webp" alt="Main pressant la patte de la peluche" width="2556" height="2020" srcset="images/13-480.webp 480w, images/13-960.webp 960w, images/13.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Répondre par le toucher</h3><p>un capteur tactile dans la patte : l’enfant répond par le toucher.</p></figcaption></figure>
+<figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/12.webp" alt="Branchement des composants électroniques sur une carte Arduino" width="2556" height="1895" srcset="images/12-480.webp 480w, images/12-960.webp 960w, images/12.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Prototyper l’interaction</h3><p>carte Arduino, capteur tactile, haut-parleur et LED pour tester l’interaction.</p></figcaption></figure>
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="toms-bilan"><div class="article-section-heading"><h2 id="toms-bilan">Bilan de l’expérience</h2></div><div class="article-section-content"><p>En quatre jours, l’équipe a donné une forme tangible au concept avec un prototype de peluche. J’ai contribué à la conception des interactions et à leur mise en œuvre avec Arduino. Le prototype matérialise le parcours imaginé pour l’enfant : un geste sur la patte, associé à la voix et aux expressions lumineuses, pour échanger avec son parent.</p></div></section></div>
+<section class="article-section" aria-labelledby="toms-bilan"><div class="article-section-heading"><h2 id="toms-bilan">Ce que j’en retiens</h2></div><div class="article-section-content"><p>Quatre jours, c’est court. Mais c’est assez pour passer d’une idée à un objet qu’on presse, qu’on écoute et qu’on regarde. Prototyper en physique oblige à trancher vite des questions concrètes : où placer le capteur, comment rendre une émotion avec quelques LED, quel geste demander à l’enfant.</p><p>C’est ce que je garde de ce workshop : rendre une idée manipulable le plus tôt possible, pour que l’équipe discute de l’usage réel du parcours.</p></div></section></div>
 
       
       
     </article>
   </main>
+  <nav class="more-projects" aria-labelledby="more-projects-title">
+    <h2 id="more-projects-title">D’autres projets</h2>
+    <ul><li><a href="/articles/wiztivi/"><span class="more-projects-name">Wiztivi</span><span class="more-projects-desc">Interfaces TV et design system pour SFR, TF1 et France Télévisions</span></a></li><li><a href="/articles/maif/"><span class="more-projects-name">MAIF</span><span class="more-projects-desc">Open banking : un service de gestion financière pour micro-entrepreneurs</span></a></li><li><a href="/articles/magicook/"><span class="more-projects-name">Magicook</span><span class="more-projects-desc">Refonte UX/UI d’une app de recettes sur tablette</span></a></li><li><a href="/articles/toyota/"><span class="more-projects-name">Toyota</span><span class="more-projects-desc">Concept de tableau de bord pour voiture connectée</span></a></li><li><a href="/articles/cubanim/"><span class="more-projects-name">Cubanim</span><span class="more-projects-desc">Interface tangible pour la scène, avec Stereolux et APF France handicap</span></a></li><li><a href="/articles/apple-watch/"><span class="more-projects-name">Le futur du smartphone</span><span class="more-projects-desc">Concept produit d’un appareil porté au poignet</span></a></li><li><a href="/articles/wiztivi/design-systems/"><span class="more-projects-name">Design system</span><span class="more-projects-desc">Article : relier les composants aux parcours</span></a></li><li><a href="/articles/wiztivi/details/"><span class="more-projects-name">UI design</span><span class="more-projects-desc">Article : les détails d’une interface TV</span></a></li><li><a href="/articles/wiztivi/simplicite/"><span class="more-projects-name">UX design</span><span class="more-projects-desc">Article : simplifier sans rien retirer d’utile</span></a></li></ul>
+  </nav>
   <footer class="portfolio-footer" aria-labelledby="contact-title">
     <h2 id="contact-title">On se recontacte ?</h2>
-    <p>Je suis disponible pour de nouvelles aventures. N'hésitez pas à me contacter par mail ou alors sur les réseaux.</p>
+    <p>Je cherche un CDI de product designer et reste ouvert aux missions freelance : startups, service public, intranets, grands comptes, produits IA et LLM. Un poste ou un projet à me proposer ? Écrivez-moi par mail ou sur <a href="https://www.linkedin.com/in/ma%C3%ABljallais/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
     <a class="portfolio-contact" href="mailto:hello@maeljallais.com">hello@maeljallais.com</a>
     <img src="../assets/images/contact-illustration.avif" alt="" width="145" height="145" loading="lazy" decoding="async">
   </footer>
