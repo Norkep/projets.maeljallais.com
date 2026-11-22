@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Design system : relier composants et parcours | Maël Jallais</title>
-  <meta name="description" content="Comment je relie les composants d’un design system aux parcours qu’ils servent : retour d’expérience sur Timeless chez Wiztivi et sur le design system Jalios.">
+  <meta name="description" content="Comment je relie les composants d’un design system aux parcours : retour d’expérience sur Timeless chez Wiztivi et sur les composants de l’intranet Jalios.">
   <meta name="author" content="Maël Jallais">
   <meta name="robots" content="index, follow, noimageindex, max-image-preview:none">
   <link rel="canonical" href="https://projets.maeljallais.com/articles/wiztivi/design-systems/">
@@ -16,11 +16,11 @@
   <meta property="og:site_name" content="Maël Jallais">
   <meta property="og:url" content="https://projets.maeljallais.com/articles/wiztivi/design-systems/">
   <meta property="og:title" content="Design system : relier composants et parcours | Maël Jallais">
-  <meta property="og:description" content="Comment je relie les composants d’un design system aux parcours qu’ils servent : retour d’expérience sur Timeless chez Wiztivi et sur le design system Jalios.">
+  <meta property="og:description" content="Comment je relie les composants d’un design system aux parcours : retour d’expérience sur Timeless chez Wiztivi et sur les composants de l’intranet Jalios.">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Design system : relier composants et parcours | Maël Jallais">
-  <meta name="twitter:description" content="Comment je relie les composants d’un design system aux parcours qu’ils servent : retour d’expérience sur Timeless chez Wiztivi et sur le design system Jalios.">
+  <meta name="twitter:description" content="Comment je relie les composants d’un design system aux parcours : retour d’expérience sur Timeless chez Wiztivi et sur les composants de l’intranet Jalios.">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -39,7 +39,7 @@
       "@id": "https://projets.maeljallais.com/articles/wiztivi/design-systems/#webpage",
       "url": "https://projets.maeljallais.com/articles/wiztivi/design-systems/",
       "name": "Design system : relier composants et parcours | Maël Jallais",
-      "description": "Comment je relie les composants d’un design system aux parcours qu’ils servent : retour d’expérience sur Timeless chez Wiztivi et sur le design system Jalios.",
+      "description": "Comment je relie les composants d’un design system aux parcours : retour d’expérience sur Timeless chez Wiztivi et sur les composants de l’intranet Jalios.",
       "inLanguage": "fr-FR",
       "author": {
         "@id": "https://maeljallais.com/#person"
@@ -53,7 +53,7 @@
       "@id": "https://projets.maeljallais.com/articles/wiztivi/design-systems/#work",
       "headline": "Un système, pas une collection.",
       "name": "Un système, pas une collection.",
-      "description": "Comment je relie les composants d’un design system aux parcours qu’ils servent : retour d’expérience sur Timeless chez Wiztivi et sur le design system Jalios.",
+      "description": "Comment je relie les composants d’un design system aux parcours : retour d’expérience sur Timeless chez Wiztivi et sur les composants de l’intranet Jalios.",
       "url": "https://projets.maeljallais.com/articles/wiztivi/design-systems/",
       "inLanguage": "fr-FR",
       "author": {
@@ -109,9 +109,12 @@
       <figure class="reader-cover systems-art" id="reader-cover" aria-hidden="true"><span class="cover-kicker" id="cover-kicker">Explorations · Product design</span><span class="cover-word" id="cover-word">Penser
 ensemble.</span><span class="cover-shape" id="cover-shape">▦</span></figure>
       
-      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Un design system rassemble des composants et des règles pour construire des interfaces cohérentes. Il doit aussi aider l’équipe à comprendre quand et comment les utiliser.</p></div>
-<section class="article-section" aria-labelledby="systemes-section-1"><div class="article-section-heading"><h2 id="systemes-section-1">Des composants aux parcours</h2></div><div class="article-section-content"><p>Chez Wiztivi, j’ai contribué au design system Timeless pour la télévision et le mobile. Chez Jalios, j’ai conçu des composants avec leurs variantes et leurs états, en lien avec les parcours produit, et adapté les interfaces aux principes du DSFR.</p></div></section>
-<section class="article-section" aria-labelledby="systemes-section-2"><div class="article-section-heading"><h2 id="systemes-section-2">Bilan de l’expérience</h2></div><div class="article-section-content"><p>Mes contributions à Timeless et au design system Jalios relient les composants aux parcours dans lesquels ils sont utilisés. La documentation des variantes, des états et des comportements sert de base aux échanges avec les développeurs pendant l’intégration. Retrouvez ces contributions dans mes projets <a href="../index.html">Wiztivi</a> et Jalios.</p></div></section></div>
+      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Un design system n’est pas une bibliothèque de composants rangée dans Figma. C’est un langage commun entre design et développement. S’il ne dit pas quand utiliser un composant ni comment il se comporte, chaque équipe finit par recréer ses propres variantes, et la cohérence disparaît.</p></div>
+<section class="article-section" aria-labelledby="systemes-section-1"><div class="article-section-heading"><h2 id="systemes-section-1">Partir des parcours, pas des composants</h2></div><div class="article-section-content"><p>Quand je conçois un composant, je commence par regarder les écrans où il va vivre. Un bouton, une carte ou un champ de saisie n’ont pas les mêmes contraintes selon le parcours : un réglage qu’on valide une fois, une liste qu’on parcourt tous les jours, un formulaire qu’on remplit en fin de journée.</p><p>Je liste ces situations avant de dessiner la moindre variante. Ça évite deux pièges classiques : le composant trop générique qui ne sert vraiment personne, et la variante créée pour un seul écran qui alourdit le système.</p></div></section>
+<section class="article-section" aria-labelledby="systemes-section-2"><div class="article-section-heading"><h2 id="systemes-section-2">Timeless : un même système pour la TV et le mobile</h2></div><div class="article-section-content"><p>Chez Wiztivi, j’ai contribué au design system Timeless, utilisé sur TV et mobile. Les interfaces étaient déclinées pour plusieurs acteurs des médias et des télécoms, chacun avec son identité. Le système devait tenir deux choses à la fois : des composants cohérents et réutilisables d’un projet à l’autre, et assez de souplesse pour prendre les couleurs et le ton de chaque client.</p><p>Sur une télévision, l’état de sélection est le cœur du composant. On navigue à la télécommande, donc il faut toujours savoir où l’on se trouve. Une carte de programme sans focus clair, c’est un écran où l’on se perd. Dans ma façon de travailler sur Timeless, ces états faisaient partie du composant au même titre que sa forme.</p></div></section>
+<section class="article-section" aria-labelledby="systemes-section-3"><div class="article-section-heading"><h2 id="systemes-section-3">Jalios : composants, variantes et DSFR</h2></div><div class="article-section-content"><p>Chez Jalios, éditeur de solutions d’intranet et de digital workplace, j’ai conçu des composants avec leurs variantes et leurs états, en lien avec les parcours produit. J’ai aussi adapté les interfaces aux principes du DSFR, le système de design de l’État.</p><p>Le DSFR a ses propres règles de typographie, de couleurs et d’accessibilité. Les respecter tout en gardant un produit cohérent demande de savoir précisément ce que fait chaque composant, et ce qu’on peut modifier sans casser le reste. C’est exactement là qu’un design system bien relié aux parcours fait gagner du temps.</p></div></section>
+<section class="article-section" aria-labelledby="systemes-section-4"><div class="article-section-heading"><h2 id="systemes-section-4">Documenter pour l’intégration</h2></div><div class="article-section-content"><p>Pour moi, la documentation n’est pas une étape de fin de projet. Je décris les variantes, les états (par défaut, focus, actif, désactivé, erreur) et les comportements pendant que je conçois, parce que ce sont les questions que les développeurs me poseront pendant l’intégration.</p><p>Un composant bien documenté, c’est moins d’allers-retours et moins d’interprétation. Et quand une même question revient plusieurs fois, c’est souvent le signe qu’il manque une règle dans le système.</p></div></section>
+<section class="article-section" aria-labelledby="systemes-section-5"><div class="article-section-heading"><h2 id="systemes-section-5">Ce que j’en retiens</h2></div><div class="article-section-content"><p>Un design system vit tant que l’équipe s’en sert. Il doit répondre aux vraies questions du quotidien : quel composant pour ce cas, quel état afficher, que se passe-t-il quand le contenu est trop long. C’est pour ça que je le relie toujours aux parcours.</p><p>On retrouve cette logique dans mon travail sur les <a href="../">interfaces TV chez Wiztivi</a>, dans l’attention portée aux <a href="../details/">détails d’interaction</a> et dans ma manière de <a href="../simplicite/">simplifier les parcours</a>.</p></div></section></div>
 
       
       
