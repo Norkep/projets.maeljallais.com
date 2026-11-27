@@ -1,6 +1,6 @@
 # Articles du portfolio
 
-Huit études de projets et trois articles complémentaires regroupés sous Wiztivi, au format statique. Chaque article possède son fichier `index.html` et, s’il en utilise, un dossier `images/`. Un seul CSS et un seul script sont partagés entre les articles.
+Huit études de projets et trois articles complémentaires regroupés sous Wiztivi, au format statique. Chaque article possède son fichier `index.html` et, s’il en utilise, un dossier `images/`. Un seul CSS et un seul script sont partagés entre les articles. La page `index.html` à la racine liste tous les projets (page d’accueil indexable du sous-domaine) et chaque article renvoie vers trois autres projets.
 
 ```text
 articles/

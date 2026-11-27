@@ -29,9 +29,22 @@
       "@id": "https://maeljallais.com/#person",
       "name": "Maël Jallais",
       "url": "https://maeljallais.com",
-      "jobTitle": "Product Designer",
+      "email": "mailto:hello@maeljallais.com",
+      "jobTitle": "Product Designer UX/UI",
+      "knowsAbout": [
+        "Product design",
+        "UX design",
+        "UI design",
+        "Design system",
+        "DSFR",
+        "Prototypage",
+        "Design d’interfaces IA et LLM",
+        "Intranet et outils collaboratifs",
+        "Interfaces TV"
+      ],
       "sameAs": [
-        "https://www.linkedin.com/in/maeljallais/"
+        "https://www.linkedin.com/in/maeljallais/",
+        "https://www.behance.net/MaelJallais"
       ]
     },
     {
@@ -46,6 +59,12 @@
       },
       "mainEntity": {
         "@id": "https://projets.maeljallais.com/articles/cubanim/#work"
+      },
+      "isPartOf": {
+        "@id": "https://projets.maeljallais.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://projets.maeljallais.com/articles/cubanim/#breadcrumb"
       }
     },
     {
@@ -65,6 +84,24 @@
       "mainEntityOfPage": {
         "@id": "https://projets.maeljallais.com/articles/cubanim/#webpage"
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://projets.maeljallais.com/articles/cubanim/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Projets",
+          "item": "https://projets.maeljallais.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Animer la scène d’un geste",
+          "item": "https://projets.maeljallais.com/articles/cubanim/"
+        }
+      ]
     }
   ]
 }</script>
@@ -90,7 +127,7 @@
     <div class="portfolio-topbar">
       <a class="portfolio-name" href="https://maeljallais.com/" aria-label="Maël Jallais, retour au portfolio">Maël Jallais</a>
       <nav class="portfolio-links" aria-label="Réseaux et contact">
-        <a href="https://www.linkedin.com/in/ma%C3%ABljallais/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        <a href="https://www.linkedin.com/in/ma%C3%ABljallais/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://www.behance.net/MaelJallais" target="_blank" rel="noopener noreferrer">Behance</a>
         <a href="https://twitter.com/maeljallais" target="_blank" rel="noopener noreferrer">Twitter</a>
         <a href="mailto:hello@maeljallais.com">Contact</a>
@@ -102,14 +139,14 @@
     
     <article id="article">
       <header class="article-header">
-        <p class="article-category" id="article-category">Design au produit · Cubanim</p>
+        <p class="article-category" id="article-category">Design produit · Cubanim</p>
         <h1 id="article-title">Animer la scène d’un geste.</h1>
         <p class="article-deck" id="article-deck">Des cubes pour déclencher et faire varier des animations sur scène.</p>
         <div class="article-meta"><span class="project-date">2021</span></div>
       </header>
       <section id="reader-cover" class="project-static-showcase" aria-label="Aperçus du projet Cubanim"><figure class="project-static-figure"><div class="project-showcase-media" style="--cover-height-ratio:0.8165680473"><img src="images/group-46.webp" alt="Cubes Cubanim sur leur support en bois" width="2704" height="2208" srcset="images/group-46-480.webp 480w, images/group-46-960.webp 960w, images/group-46.webp 1600w" sizes="(max-width: 600px) calc(100vw - 42px), (max-width: 900px) calc(100vw - 66px), (max-width: 1520px) calc(100vw - 82px), 1438px" loading="eager" decoding="async"></div><h2>Le dispositif</h2><figcaption>Photographie : Jean-Charles Quéffélec.</figcaption></figure></section>
-      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Cubanim est un prototype qui permet de piloter des visuels pendant un spectacle en manipulant des cubes. Il a été conçu avec des adolescents en situation de handicap, dont certains rencontrent des difficultés à saisir ou à manipuler des objets.</p></div>
-<section class="article-section" aria-labelledby="cubanim-section-1"><div class="article-section-heading"><h2 id="cubanim-section-1">Contexte et objectif</h2></div><div class="article-section-content"><p>Ce projet étudiant a été réalisé pendant huit semaines à L’École de design Nantes Atlantique, en partenariat avec Stereolux et APF France handicap. Il explore le VJing : la création et la manipulation de visuels en temps réel sur scène.</p><p>Notre objectif était de permettre aux participants de déclencher des animations au moment voulu et de les faire évoluer tout au long d’un spectacle, avec des gestes adaptés à leurs capacités de manipulation.</p></div></section>
+      <div class="article-body" id="article-body"><div class="article-introduction"><p class="article-lead">Cubanim permet de piloter les visuels d’un spectacle en faisant tourner des cubes. Nous l’avons conçu avec des adolescents en situation de handicap, dont certains ont du mal à saisir ou à manipuler un objet.</p></div>
+<section class="article-section" aria-labelledby="cubanim-section-1"><div class="article-section-heading"><h2 id="cubanim-section-1">Contexte et objectif</h2></div><div class="article-section-content"><p>C’est un projet étudiant de huit semaines, mené à L’École de design Nantes Atlantique avec Stereolux et APF France handicap. Le sujet : le VJing, c’est-à-dire créer et manipuler des visuels en temps réel sur scène.</p><p>Nous voulions que chaque participant puisse lancer une animation au bon moment et la faire évoluer pendant tout le spectacle, avec des gestes adaptés à ses capacités.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="cubanim-carousel-1-title">
         <div class="article-carousel-heading">
           <h2 id="cubanim-carousel-1-title">Le contexte du spectacle</h2>
@@ -119,13 +156,13 @@
           </div>
         </div>
         <div class="article-carousel-track" id="cubanim-carousel-1-track" tabindex="0" role="group" aria-label="Visuels : Le contexte du spectacle. Défilement horizontal.">
-          <figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/group-38.webp" alt="Musiciens en répétition, dont une personne en fauteuil roulant" width="3066" height="2380" srcset="images/group-38-480.webp 480w, images/group-38-960.webp 960w, images/group-38.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Une pratique collective</h3><p>le projet prend place dans un contexte de pratique musicale collective.</p></figcaption></figure>
-<figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/img-1012-1.webp" alt="Personne utilisant un dispositif de commande adapté" width="2342" height="2380" srcset="images/img-1012-1-480.webp 480w, images/img-1012-1-960.webp 960w, images/img-1012-1.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Les usagers</h3><p>le projet s’adresse à des adolescents en situation de handicap ; pour certains, la manipulation d’un objet peut être difficile.</p></figcaption></figure>
+          <figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/group-38.webp" alt="Musiciens en répétition, dont une personne en fauteuil roulant" width="3066" height="2380" srcset="images/group-38-480.webp 480w, images/group-38-960.webp 960w, images/group-38.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Une pratique collective</h3><p>le projet s’inscrit dans une pratique musicale collective.</p></figcaption></figure>
+<figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/img-1012-1.webp" alt="Personne utilisant un dispositif de commande adapté" width="2342" height="2380" srcset="images/img-1012-1-480.webp 480w, images/img-1012-1-960.webp 960w, images/img-1012-1.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Les usagers</h3><p>des adolescents en situation de handicap, pour qui saisir un objet n’est pas toujours simple.</p></figcaption></figure>
 <figure class="article-carousel-slide"><div class="article-carousel-media"><img src="images/frame-16.webp" alt="Musiciens et instruments sur une scène éclairée" width="6020" height="2380" srcset="images/frame-16-480.webp 480w, images/frame-16-960.webp 960w, images/frame-16.webp 1600w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1680px) calc(100vw - 96px), 1584px" loading="lazy" decoding="async"></div><figcaption><h3>Sur scène</h3><p>Cubanim explore une façon de participer aux visuels d’un spectacle.</p></figcaption></figure>
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="cubanim-section-2"><div class="article-section-heading"><h2 id="cubanim-section-2">Recherche et exploration</h2></div><div class="article-section-content"><p>Nous avons recueilli les besoins et exploré en équipe plusieurs façons de commander les visuels, en tenant compte des difficultés de manipulation rencontrées par les utilisateurs. Nous avons ensuite confronté des propositions à des personnes de France handicap. Les essais de manipulation nous ont aidés à faire évoluer les pistes et à choisir une solution.</p><p>J’ai participé aux tests et à un audit d’accessibilité. Les observations précises et les critères ayant conduit au choix final restent à documenter.</p></div></section>
+<section class="article-section" aria-labelledby="cubanim-section-2"><div class="article-section-heading"><h2 id="cubanim-section-2">Recherche et exploration</h2></div><div class="article-section-content"><p>Nous avons commencé par recueillir les besoins, puis exploré en équipe plusieurs façons de commander les visuels, en partant des difficultés de manipulation des participants. Nous avons ensuite testé nos propositions avec des personnes d’APF France handicap. Ce sont ces essais qui ont fait le tri entre les pistes.</p><p>J’ai participé aux tests et à un audit d’accessibilité. Sur ce type de projet, c’est la manipulation réelle qui tranche : un geste qui paraît évident sur un croquis peut devenir pénible entre les mains d’un participant.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="cubanim-carousel-2-title">
         <div class="article-carousel-heading">
           <h2 id="cubanim-carousel-2-title">Chercher et essayer</h2>
@@ -142,7 +179,7 @@
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="cubanim-section-3"><div class="article-section-heading"><h2 id="cubanim-section-3">La solution : un cube pour un paramètre</h2></div><div class="article-section-content"><p>Le dispositif comprend des cubes montés sur des axes dans un support en bois. Chaque cube contrôle un paramètre de l’animation : la taille, la position, la couleur ou la forme. En faisant tourner un cube, la personne présente un marqueur à une caméra ; celui-ci détermine le réglage associé au visuel.</p><p>Des repères graphiques et colorés distinguent les commandes. L’intention était de rendre le pilotage des animations accessible par une manipulation simple, plutôt que par une interface complexe.</p></div></section>
+<section class="article-section" aria-labelledby="cubanim-section-3"><div class="article-section-heading"><h2 id="cubanim-section-3">La solution : un cube pour un paramètre</h2></div><div class="article-section-content"><p>Le dispositif comprend des cubes montés sur des axes dans un support en bois. Chaque cube contrôle un paramètre de l’animation : la taille, la position, la couleur ou la forme. En faisant tourner un cube, la personne présente un marqueur à une caméra ; celui-ci détermine le réglage associé au visuel.</p><p>Des repères graphiques et colorés distinguent les commandes. L’idée était de piloter les animations par un geste simple, sans passer par une interface complexe.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="cubanim-carousel-3-title">
         <div class="article-carousel-heading">
           <h2 id="cubanim-carousel-3-title">Fonctionnement du dispositif</h2>
@@ -158,7 +195,7 @@
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="cubanim-section-4"><div class="article-section-heading"><h2 id="cubanim-section-4">Mon rôle et le prototype</h2></div><div class="article-section-content"><p>En tant que designer d’interactivité, j’ai contribué au recueil des besoins et à la conception de l’interface entre les personnes et le dispositif. J’ai participé aux recherches, aux essais et au choix de la solution.</p><p>J’ai coordonné le travail avec Enora Jaffré en design d’interactivité, Élise Croguennoc et Mathis Chiron en design produit et industriel, et Amandine Quintin en design d’architecture. J’ai aussi échangé avec le développeur du projet.</p><p>L’équipe a prototypé les solutions avec Arduino, de l’électronique et Unity pour les interactions 3D. Des essais de réalité augmentée avec Unity et Vuforia ont précédé la solution finale. J’ai également contribué à l’identité graphique : logo, typographie et couleurs.</p></div></section>
+<section class="article-section" aria-labelledby="cubanim-section-4"><div class="article-section-heading"><h2 id="cubanim-section-4">Mon rôle et le prototype</h2></div><div class="article-section-content"><p>En tant que designer d’interactivité, j’ai travaillé sur le recueil des besoins et sur l’interface entre les participants et le dispositif. J’ai participé aux recherches, aux essais et au choix de la solution.</p><p>J’ai coordonné le travail avec Enora Jaffré en design d’interactivité, Élise Croguennoc et Mathis Chiron en design produit et industriel, et Amandine Quintin en design d’architecture. J’ai aussi échangé avec le développeur du projet.</p><p>L’équipe a prototypé les solutions avec Arduino, de l’électronique et Unity pour les interactions 3D. Des essais de réalité augmentée avec Unity et Vuforia ont précédé la solution finale. J’ai également contribué à l’identité graphique : logo, typographie et couleurs.</p></div></section>
 <section class="article-carousel" data-article-carousel aria-labelledby="cubanim-carousel-4-title">
         <div class="article-carousel-heading">
           <h2 id="cubanim-carousel-4-title">Prototypage et ouverture</h2>
@@ -173,15 +210,16 @@
         </div>
         <span class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
       </section>
-<section class="article-section" aria-labelledby="cubanim-bilan"><div class="article-section-heading"><h2 id="cubanim-bilan">Bilan de l’expérience</h2></div><div class="article-section-content"><p>Le projet a abouti à un prototype qui relie la manipulation de cubes à des animations numériques. J’ai contribué au choix de la solution à partir des essais, à la coordination entre les disciplines de design et aux échanges avec le développeur. Ce travail traduit les besoins de manipulation des participants en commandes physiques pour piloter les visuels d’un spectacle.</p></div></section></div>
+<section class="article-section" aria-labelledby="cubanim-bilan"><div class="article-section-heading"><h2 id="cubanim-bilan">Bilan de l’expérience</h2></div><div class="article-section-content"><p>Nous avons abouti à un prototype qui relie la rotation d’un cube à une animation numérique. Pour moi, ce projet a surtout été un exercice de coordination entre trois disciplines de design et un développeur, avec une règle simple : partir des capacités de manipulation des participants, et pas de la technologie.</p></div></section></div>
 
       
       
     </article>
+    <nav class="related-stories" aria-labelledby="related-title"><h2 id="related-title">Autres projets</h2><ul><li><a class="related-story" href="/articles/toms/"><span class="related-story-meta">Toms · Design d’interaction</span><h3>Une peluche pour échanger</h3></a></li><li><a class="related-story" href="/articles/apple-watch/"><span class="related-story-meta">Concept · Objet connecté</span><h3>Le futur du smartphone</h3></a></li><li><a class="related-story" href="/articles/wiztivi/"><span class="related-story-meta">Wiztivi · Interfaces TV et design system</span><h3>Concevoir des interfaces TV chez Wiztivi</h3></a></li></ul></nav>
   </main>
   <footer class="portfolio-footer" aria-labelledby="contact-title">
     <h2 id="contact-title">On se recontacte ?</h2>
-    <p>Je suis disponible pour de nouvelles aventures. N'hésitez pas à me contacter par mail ou alors sur les réseaux.</p>
+    <p>Product designer UX/UI, je suis disponible en freelance ou en CDI : startup, service public, intranet ou grand compte, y compris sur des produits qui intègrent l’IA et les LLM. Écrivez-moi par mail ou sur LinkedIn.</p>
     <a class="portfolio-contact" href="mailto:hello@maeljallais.com">hello@maeljallais.com</a>
     <img src="../assets/images/contact-illustration.avif" alt="" width="145" height="145" loading="lazy" decoding="async">
   </footer>
